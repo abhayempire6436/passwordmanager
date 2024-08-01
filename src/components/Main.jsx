@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:3000/"
+axios.defaults.baseURL = "https://passwordmanager6436.vercel.app/"
 
 const Main = () => {
 
