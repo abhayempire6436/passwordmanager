@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+  border-radius: 1.5rem;
+  padding: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.out-line{
+  outline-color: #0a75af;
+  /* outline-width: 1px; */
+  border: 2px solid #57a8d4
+}
+
+@media only screen and (max-width: 410px) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+  
+  }
+}
+
+@media only screen and (max-width: 450px){
+  table{
+    width: 100%;
+    
+  }
+}
